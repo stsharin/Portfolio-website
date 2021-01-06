@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+  }
+body{
+    margin: 0px;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+}
+h1{
+    color: rgb(34, 34, 34);
+    font-size: 60px;
+    margin: 0px;
+}
+h4{
+    font-size: 30px;
+    color: rgb(44, 44, 44);
+}
+h2{
+    color: rgb(172, 12, 12);
+    font-size: 60px;
+    margin: 0px;
+}
+p{
+    font: 12px;
+    margin-bottom: 50px;
+    color: dimgray;
+}
+h3{
+    font-size: 25px;
+    color: rgb(255, 217, 0);
+}
+h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: rgb(38, 116, 194);
+}
+.navbar{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    overflow: hidden;
+    margin-right: 70px;
+    margin-left: 65%;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(177, 3, 3);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  .half-width{
+      width: 40%;
+      float: left;
+      margin-left: 5%;
+      padding-left: 2%;
+      /* background-color: black; */
+      height: auto;
+  }
+  .half-width img{
+      width: 100%;
+  }
+  .link-button{
+      text-decoration: none;
+      background-image: linear-gradient(90deg, tomato, rgb(185, 33, 7));
+      color: white;
+      font-weight: 700;
+      padding: 15px 45px;
+      margin-top: 20px;
+      border-radius: 5px;
+      font-size: 15px;
+  }
+  section{
+    height: 500px;  
+    padding-bottom: 20px;
+  }
+  .highlight{
+      color: rgb(243, 60, 60);
+  }
+  .latest{
+      margin: 50px;
+      text-align: center;
+  }
+  .third{
+      width: 100%;
+      background-color: rgb(238, 236, 236);
+      height: auto;
+      padding: 10px;
+      margin-bottom: 500px;
+  }
+  .row {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 10px 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+  }
+  .column img{
+      width: 300px;
+      height: 60%;
+      padding: 5px 10px;
+  }
+  .full-col{
+      height: 300px;
+      width: 100px;
+  }
+  .column p{
+      margin-bottom: 10px;
+  }
+  .work img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 100px;
+  }
+  /* .half-work{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    background-color: black;
+    height: auto;
+  } */
+  .work{
+    position: relative;
+    text-align: center;
+  }
+  #work-in {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    padding-right: 20px;
+    /* margin-left: 40px; */
+  }
+  #chat{
+    position: absolute;
+    top: 90px;
+    right: 300px;
+    padding-left: 20px;
+  }
+  .half-work h2{
+      color: white;
+      font-size: 50px;
+  }
+  .contact h4{
+      font-size: 18px;
+      text-align: center;
+      color: dimgray;
+      margin: 0px;
+  }
+  footer p{
+    text-align: center;
+    font-size: 15px;
+    margin: 5px;
+    font-weight:500;
+    margin-bottom: 20px;
+    color: dimgray;
+  }
+  .experience-area{
+      width: 100%;
+      margin-top: 200px;
+      margin-bottom: 80px;
+      background-color: rgb(248, 246, 246);;
+  }
+  .experience-area h2{
+      color:  rgb(243, 60, 60);
+      font-size: 40px;
+      margin-left: 90px;
+      padding-top: 50px;
+  }
+  .experience-area h4{
+    color: rgb(41, 41, 41);
+    font-size: 28px;
+}
